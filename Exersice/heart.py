@@ -3,7 +3,7 @@ import math
 
 t = turtle.Turtle()
 t.speed(0)
-t.color("green")
+t.color("pink")
 turtle.bgcolor("black")
 
 def corazon(n):
