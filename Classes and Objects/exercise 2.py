@@ -16,7 +16,7 @@ class Weapon:
     def __repr__(self): #репрезентира информация от нашия клас
         return f"Remaining bullets {self.bullet}"
 
-weapon = Weapon(5)
+weapon = Weapon(0)
 print(weapon.shoot())
 print(weapon.shoot())
 print(weapon)
