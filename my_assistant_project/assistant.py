@@ -2,13 +2,7 @@ import webbrowser
 import datetime
 import pyttsx3
 
-def speak(text):
-    engine = pyttsx3.init()
-    engine.say(text)
-    engine.runAndWait()
 
-# Пример на използване:
-speak("Здравей, какво мога да направя за теб?")
 
 
 NOTES_FILE = "notes.txt"
