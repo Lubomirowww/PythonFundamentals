@@ -1,5 +1,11 @@
-car_model = input()
-car_color = input()
+car_model = input("Изберете купе на автомобила:")
+available_versions = {
+    "Sedan"
+    "SUV"
+    "Coupe"
+}
+car_brand = input("Изберете марка на кола: ")
+car_color = input("Изберете цвят на колата: ")
 price = 0
 features = []
 
@@ -11,8 +17,10 @@ available_features = {
     "leather seats": 2000,
     "panorama": 1000,
 }
-
+print(available_features)
 user_input = input("Въведи избраните екстри:")
+
+
 
 
 equipment_features = [f.strip().lower() for f in user_input.split(", ")]
